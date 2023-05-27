@@ -15,7 +15,7 @@ int _putchar(char c)
 
 	if (c == -1 || i >= 1024)
 	{
-		write(1, &BUF, 	i);
+		write(1, &BUF, i);
 		i = 0;
 	}
 	if (c != -1)
@@ -23,6 +23,6 @@ int _putchar(char c)
 		BUF[i] = c;
 		i++;
 	}
-	
+
 	return (i);
 }

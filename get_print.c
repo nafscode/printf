@@ -17,6 +17,7 @@ int (*get_print(char s))(va_list, flag_t *)
 	int flags = 3;
 
 	register int i;
+
 	for (i = 0; i < flags; i++)
 		if (array[i].spec == s)
 			return (array[i].func);
