@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * get_print - A function that get the right funcion to print based
+ * get_print - A function that gets the right funcion to print based
  * on specifier
  * @s: specifier
  * Return: a pointer to the function to be printed
@@ -12,9 +12,11 @@ int (*get_print(char s))(va_list, flag_t *)
 	rf array[] = {
 		{'c', print_char},
 		{'s', print_string},
-		{'%', print_percent}
+		{'%', print_percent},
+		{'d', print_integer},
+		{'i', print_integer}
 	};
-	int flags = 3;
+	int flags = 5;
 
 	register int i;
 

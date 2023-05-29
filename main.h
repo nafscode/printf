@@ -39,5 +39,9 @@ int print_percent(va_list arg, flag_t *flag); /** prints percent */
 int get_flag(char s, flag_t *flag); /** get flag */
 int (*get_print(char s))(va_list, flag_t *); /** get function to print */
 int _printf(const char *format, ...); /** main print function */
-
+int print_integer(va_list arg, flag_t *flag); /** prints integers */
+void print_number(int i); /** helper function to loop through and print all digits of an integer */
+int count_num(int num); /** helper function to return number of digits in an integer */
+int print_uns(va_list arg, flag_t *flag); /** prints an unsigned integer */
+char *translate(unsigned long int n, int b, int lc); /** translator from inputted unsigned int, number and base to string */
 #endif
