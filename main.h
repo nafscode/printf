@@ -53,7 +53,6 @@ int _printf(const char *format, ...);
 
 /* print numbers */
 int print_integer(va_list arg, flag_t *flag);
-int print_uns(va_list arg, flag_t *flag);
 void print_number(int i);
 int count_num(int num);
 
@@ -62,5 +61,11 @@ char *translate(unsigned long int n, int b, int lc);
 
 /* print binary */
 int print_bin(va_list arg, flag_t *flag);
+
+/* Task 3 functions */
+int print_uns(va_list arg, flag_t *flag);
+int oct_print(va_list arg, flag_t *flag);
+int hex_print(va_list arg, flag_t *flag);
+int big_hex_print(va_list arg, flag_t *flag);
 
 #endif
