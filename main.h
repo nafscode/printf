@@ -68,7 +68,9 @@ int oct_print(va_list arg, flag_t *flag);
 int hex_print(va_list arg, flag_t *flag);
 int big_hex_print(va_list arg, flag_t *flag);
 
-/* Task 4 function */
+/* Task 5 function */
 int big_S_print(va_list arg, flag_t *flag);
 
+/* Task 6 function */
+int addr_print(va_list arg, flag_t *flag);
 #endif

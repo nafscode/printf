@@ -20,9 +20,10 @@ int (*get_print(char s))(va_list, flag_t *)
 		{'o', oct_print},
 		{'x', hex_print},
 		{'X', big_hex_print},
-		{'S', big_S_print}
+		{'S', big_S_print},
+		{'p', addr_print}
 	};
-	int flags = 11;
+	int flags = 12;
 
 	register int i;
 
