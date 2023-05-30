@@ -24,5 +24,5 @@ int _putchar(char c)
 		i++;
 	}
 
-	return (i);
+	return (1);
 }
