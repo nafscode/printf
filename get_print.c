@@ -15,9 +15,13 @@ int (*get_print(char s))(va_list, flag_t *)
 		{'%', print_percent},
 		{'d', print_integer},
 		{'i', print_integer},
-		{'b', print_bin}
+		{'b', print_bin},
+		{'u', print_uns},
+		{'o', oct_print},
+		{'x', hex_print},
+		{'X', big_hex_print}
 	};
-	int flags = 6;
+	int flags = 10;
 
 	register int i;
 
