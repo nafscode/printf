@@ -59,4 +59,8 @@ int count_num(int num);
 
 /* translator */
 char *translate(unsigned long int n, int b, int lc);
+
+/* print binary */
+int print_bin(va_list arg, flag_t *flag);
+
 #endif
