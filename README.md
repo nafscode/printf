@@ -10,9 +10,9 @@ The _printf is a function that mimics the printf function in C programming langu
 ## Usage
 * Prints to the standard output according the given format.
 * Returns the number of characters printed (excluding the null byte used to end output to strings).
-`format` is a character string. It is composed of zero or more direcives.
+`format` is a character string. It is composed of zero or more directives.
 * Files are created and compiled on Ubuntu 14.04.4 LTS using GCC 4.8.4 with he command `gcc -Wall -Werror -Wextra pendantic *.c.
-* It is called as `_printf("format string:, arguments...)` where `format string` specifies the output while `arguments` are the variable names corresponding to the format specifier.
+* It is called as `_printf("format string", arguments...)` where `format string` specifies the output while `arguments` are the variable names corresponding to the format specifier.
 
 ## Format Specifiers
 | Specifier | Output		|
