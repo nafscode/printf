@@ -73,4 +73,10 @@ int big_S_print(va_list arg, flag_t *flag);
 
 /* Task 6 function */
 int addr_print(va_list arg, flag_t *flag);
+
+/* Task 14 function */
+int reverse_print(va_list arg, flag_t *flag);
+
+/* Task 15 function */
+int rot13_print(va_list arg, flag_t *flag);
 #endif
