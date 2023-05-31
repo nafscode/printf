@@ -11,7 +11,7 @@ The _printf is a function that mimics the printf function in C programming langu
 * Prints to the standard output according the given format.
 * Returns the number of characters printed (excluding the null byte used to end output to strings).
 `format` is a character string. It is composed of zero or more directives.
-* Files are created and compiled on Ubuntu 14.04.4 LTS using GCC 4.8.4 with the command `gcc -Wall -Werror -Wextra pendantic *.c.
+* Files are created and compiled on Ubuntu 14.04.4 LTS using GCC 4.8.4 with the command `gcc -Wall -Werror -Wextra pendantic *.c`.
 * It is called as `_printf("format string", arguments...)` where `format string` specifies the output while `arguments` are the variable names corresponding to the format specifier.
 
 ## Format Specifiers
@@ -66,10 +66,15 @@ Percent: %
 ```
 
 ## Files
-* [_putchar](https://github.com/nafscode/printf/blob/master/_putchar.c): Write character to the standard output.
-* [_puts](https://github.com/nafscode/printf/blob/master/_puts.c): Prints strings to the standard output.
-
+* [_putchar](https://github.com/nafscode/printf/blob/master/_putchar.c): Writes character to the standard output.
+* [_puts](https://github.com/nafscode/printf/blob/master/_puts.c): Writes strings to the standard output.
+* [print_char](https://github.com/nafscode/printf/blob/master/print_char.c): Prints character.
+* [print_string](https://github.com/nafscode/printf/blob/master/print_string.c): Prints string.
+* [get_flag](https://github.com/nafscode/printf/blob/master/get_flag.c): Specifies what flag to use.
+* [get_print](https://github.com/nafscode/printf/blob/master/get_print.c): Gets the the right function based on specifier.
+* [print_number](https://github.com/nafscode/printf/blob/master/print_number.c): Prints numbers.
 * [_printf](https://github.com/nafscode/printf/blob/master/_printf.c): The main printf function.
+* e. t. c.
 
 
 ## Authors
