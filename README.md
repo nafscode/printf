@@ -1,6 +1,6 @@
 # _printf
 
-## Decription
+## Description
 
 The _printf is a function that mimics the printf function in C programming language. It is used to print output on the screen and allows formatting of the output in numerous ways.
 
@@ -27,6 +27,17 @@ The _printf is a function that mimics the printf function in C programming langu
 | o         | Octal             |
 | x         | Hexa-decimal      |
 | X         | Hexa-decimal      |
+| S	    | Hex-ASCII Value   |
+| p         | Pointer Address   |
+| r	    | Reversed string   |
+| R         | RO13 string	|
+
+## Flags (In development...)
+| Flag	|			Description			|
+| :-----| :-----------------------------------------------------|
+| +	| Preceeds the result with a plus or minus sign (+ or -)|
+| ' '	| If no sign, a blank space is inserted before the value|
+| #	| preceeded with 0, 0x or 0X for values that aren't zero|
 
 ### Example:
 
