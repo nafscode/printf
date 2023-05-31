@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * _puts - A function that prints string to the sdout
+ * _puts - A function that writes string to the sdout
  * @str: pointer to the string
  * Return: numbers of character written
  */
